@@ -8,7 +8,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class PostmanVariables {
-	public static final String POSTMAN_EXP = "\\{\\{[^\\}]+\\}\\}";
+	public static final String POSTMAN_EXP = "\\{\\{[^\\}\\s]+\\}\\}";
 	public static final String GUID = "{{$guid}}";
 	public static final String TIMESTAMP = "{{$timestamp}}";
 	public static final String RANDOMINT = "{{$randomInt}}";
